@@ -1,6 +1,8 @@
 This is the README report associated with filter.py
 There is another readme that came with the data collection, so that it is not confused.
 
+This program takes in the data set and aims to classify the data as either spam or ham.
+
 Statistics:
 Total Messages in Data Set: 5574
 Total Spam Messages: 747
