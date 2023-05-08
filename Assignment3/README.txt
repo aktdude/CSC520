@@ -2,6 +2,7 @@ N-QUEENS & Prolog
 
 I made my code using VSCODE. The two files I have are nqueens.py and prolog.pl.
 
+NQueens is a problem to make a chess board with a queen in each column and no queens attack each other
 I run Question 1(NQueens) by doing:
 python nqueens.py basic 10
 python nqueens.py forward 10
