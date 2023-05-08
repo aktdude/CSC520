@@ -1,5 +1,4 @@
-I showed after class one day to the professor that I was unable to connect to VCL and he said it was fine if I just
-worked on it on VSCode which is what I did. I have Java version 11.0.16.1 and Python 3.10.6. I used the Git Bash terminal
+ I have Java version 11.0.16.1 and Python 3.10.6. I used the Git Bash terminal
 to complete my work. I have it read in the first parameter in the commandline as the filename in the format graph*2*.txt where
 the first star is the start and the second is the finish. With this it reads one of the 3 given files along with cities.csv and runs both A* and RBFS and reports the shortest path, the length of that path and the number of states expanded.
 
@@ -7,7 +6,6 @@ I run it using python Assignment1.py graphA2E.txt
 
 Locally, my algorithms find a path for every graph, although the RBFS takes a couple of seconds to complete.
 
-Additionally, the written part of this assignment should be submitted separately not in the zip folder.
 
 In terms, of the heuristic, I noticed that roads/edges between graphs were not consistent. For example there's an edge in the A2E
 file that is worth 11 that is only worth 1 in A2L. If this represented a road from one town to another, it wouldn't change based on the graph. 
