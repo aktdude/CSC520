@@ -1,0 +1,25 @@
+I showed after class one day to the professor that I was unable to connect to VCL and he said it was fine if I just
+worked on it on VSCode which is what I did. I have Java version 11.0.16.1 and Python 3.10.6. I used the Git Bash terminal
+to complete my work. I have it read in the first parameter in the commandline as the filename in the format graph*2*.txt where
+the first star is the start and the second is the finish. With this it reads one of the 3 given files along with cities.csv and runs both A* and RBFS and reports the shortest path, the length of that path and the number of states expanded.
+
+I run it using python Assignment1.py graphA2E.txt
+
+Locally, my algorithms find a path for every graph, although the RBFS takes a couple of seconds to complete.
+
+Additionally, the written part of this assignment should be submitted separately not in the zip folder.
+
+In terms, of the heuristic, I noticed that roads/edges between graphs were not consistent. For example there's an edge in the A2E
+file that is worth 11 that is only worth 1 in A2L. If this represented a road from one town to another, it wouldn't change based on the graph. 
+
+This made me realize that these edge values don't seem to actually correlate to real road values like the example in class. 
+However, this is the data we were given so I did my best to work with it. I took Euclidean distance
+from each node to the goal node based on the positions in the csv. However, my main concern was that this overestimated the path cost
+which would make this heuristic not admissible. Therefore, I decided to keep proportions the same but square root the Euclidean distance
+so that it would be more applicable by not overestimating the actual path cost. In all the graphs we were given to work with, this 
+heuristic never overestimated the path size. 
+
+Limitations on this heuristic are that the latitude and longitude values are very helpful for seeing how close to the goal in a situation where distance is more important, but it seems to me that these edge values didn't come from anywhere they were just random
+chosen values as the edges weren't consistent between graphs. This means that the cost of a path wasn't necessarily equivalent or 
+proportional to distance but were in these cases enough to find a shortest path. However, other graphs where the graphs edges are more 
+unrelated to distance may experience trouble since distance is what the heuristic is based on.
