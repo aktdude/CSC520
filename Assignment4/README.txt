@@ -1,11 +1,8 @@
-For the written part I am submitting a scanned PDF. I also have an image file that may be slightly clearer but due to the
-submisison specifications I am refraining from submitting that unless asked.
-I also can bring the physical copy if necessary and requested soon after the due date.
-
-For the coding part, I added more titles and description for understanding purposes.
+HMM model probability simulation
+Calculates HMM probabilities based on evidence and the model given by the text file
 Here is a sample runthrough:
 
-PS C:\Users\aktdu\Desktop\Assign4> python HMM.py HMM_model.txt RFB
+>python HMM.py HMM_model.txt RFB
 
 START PROBABILITIES
 p(H0 = O) = 0.3
