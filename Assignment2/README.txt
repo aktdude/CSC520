@@ -1,3 +1,4 @@
+### Tic Tac Toe
 My code is ran in the following way:
 python game-search.py a "1 2 0,0 1 0,0 0 2"
 It outputs the Starting Player,
