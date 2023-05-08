@@ -1,4 +1,6 @@
- I have Java version 11.0.16.1 and Python 3.10.6. I used the Git Bash terminal
+GRAPH SEARCH
+
+I have Java version 11.0.16.1 and Python 3.10.6. I used the Git Bash terminal
 to complete my work. I have it read in the first parameter in the commandline as the filename in the format graph*2*.txt where
 the first star is the start and the second is the finish. With this it reads one of the 3 given files along with cities.csv and runs both A* and RBFS and reports the shortest path, the length of that path and the number of states expanded.
 
