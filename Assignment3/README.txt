@@ -1,6 +1,8 @@
+N-QUEENS & Prolog
+
 I made my code using VSCODE. The two files I have are nqueens.py and prolog.pl.
 
-I run Question 1 by doing:
+I run Question 1(NQueens) by doing:
 python nqueens.py basic 10
 python nqueens.py forward 10
 
@@ -21,7 +23,7 @@ Backtrack count: 92
 ['0', '0', '0', '0', 'Q', '0', '0', '0', '0', '0']
 
 
-For Question 3 I ran it by doing:
+For Question 3(Prolog) I ran it by doing:
 swipl
 [prolog].
 
